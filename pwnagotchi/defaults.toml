@@ -110,6 +110,7 @@ main.mon_start_cmd = "/usr/bin/monstart"
 main.mon_stop_cmd = "/usr/bin/monstop"
 main.mon_max_blind_epochs = 50
 main.no_restart = false
+main.channels = [1, 6, 11]
 
 main.log.path = "/etc/pwnagotchi/log/pwnagotchi.log"
 main.log.path-debug = "/etc/pwnagotchi/log/pwnagotchi-debug.log"
